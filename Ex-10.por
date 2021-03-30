@@ -10,15 +10,14 @@ programa
 
 		leia(x)
 		
-			y = 0
+			y = 1
 
 		enquanto(x >= y){
+			
+		 escreva(y + "\n")
+			
 			y = y+ 1
-
-			se(y <= x)
-			escreva(y + "\n")
-
-				
+			
 			
 		}
 	}
@@ -29,7 +28,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 167; 
+ * @POSICAO-CURSOR = 107; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
