@@ -20,7 +20,7 @@ programa
 		}
 
 		se(n2 > n1){
-			escreva("O segundo número é maior que o segundo")
+			escreva("O segundo número é maior que o primeiro")
 		}
 	}
 }
@@ -30,7 +30,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 360; 
+ * @POSICAO-CURSOR = 223; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
