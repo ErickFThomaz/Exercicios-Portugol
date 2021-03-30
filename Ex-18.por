@@ -3,18 +3,18 @@ programa
 	
 	funcao inicio()
 	{
-		escreva("Números de 1 á 10: \n")
+		real pc, mg, vl
+		
+		 escreva("Digite o preço do produto: ")
+           leia(pc)
 
-		inteiro x, y
+            escreva("Digite a margem de lucro: ")
+            leia(mg)
 
-		x = 1
-		y = 10
+            vl = (pc * mg) + pc
 
-		enquanto(x <= y){
-			escreva(x + "\n")
+            escreva("O valor será de: ", vl)
 
-			x += 1
-		}	
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -22,7 +22,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 154; 
+ * @POSICAO-CURSOR = 277; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

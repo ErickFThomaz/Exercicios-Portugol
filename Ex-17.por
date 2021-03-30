@@ -3,18 +3,18 @@ programa
 	
 	funcao inicio()
 	{
-		escreva("Números de 1 á 10: \n")
+        real altura, peso, imc
 
-		inteiro x, y
+        escreva("Digite seu peso: ")
+        leia(peso)
+        
+        escreva("Digite seu altura: ")
+        leia(altura)
 
-		x = 1
-		y = 10
+        imc = (altura * altura) / peso
 
-		enquanto(x <= y){
-			escreva(x + "\n")
-
-			x += 1
-		}	
+         escreva("Seu IMC é: ", imc)
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -22,7 +22,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 154; 
+ * @POSICAO-CURSOR = 106; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

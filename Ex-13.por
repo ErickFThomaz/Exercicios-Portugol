@@ -3,26 +3,37 @@ programa
 	
 	funcao inicio()
 	{
-		escreva("Números de 1 á 10: \n")
+		real soma, x, soma1 = 0.0
+		real cache = 0.0
 
-		inteiro x, y
+		para(inteiro i = 1; i <= 10 ;i = i + 1){
+			escreva("Informe o "+ i +"º número: ")
+			leia(x)
+			limpa()
 
-		x = 1
-		y = 10
+			se(x >= 40){
 
-		enquanto(x <= y){
-			escreva(x + "\n")
+				soma1 += x
+				
+			}
+					
+		}
+		
+		se (soma1 == 0){
+			soma1 = 1.0
+		}
 
-			x += 1
-		}	
+		
+		escreva(soma1)
 	}
+
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 154; 
+ * @POSICAO-CURSOR = 82; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

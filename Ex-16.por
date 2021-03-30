@@ -3,18 +3,20 @@ programa
 	
 	funcao inicio()
 	{
-		escreva("Números de 1 á 10: \n")
+		real n1, n2 , media
 
-		inteiro x, y
+		escreva("Digite a 1º nota: ")
+		leia(n1)
+		escreva("Digite a 2º nota: ")
+		leia(n2)
 
-		x = 1
-		y = 10
+		media = (n1 + n2) / 2
 
-		enquanto(x <= y){
-			escreva(x + "\n")
-
-			x += 1
-		}	
+		se(media >= 7){
+			escreva("Aprovado! Sua média é : " , media)
+		} senao {
+			escreva("Reprovado! Sua média é : " , media)
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -22,7 +24,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 154; 
+ * @POSICAO-CURSOR = 135; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
