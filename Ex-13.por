@@ -11,7 +11,7 @@ programa
 			leia(x)
 			limpa()
 
-			se(x >= 40){
+			se(x <= 40){
 
 				soma1 += x
 				
