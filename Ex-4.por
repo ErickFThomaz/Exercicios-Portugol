@@ -19,7 +19,7 @@ programa
 		}
 
 		senao se ((n2 < n1) e (n1 < n3)){
-			escreva("A soma dos dois números é: ", (n1 + n3))
+			escreva("A soma dos dois números é: ", (n2 + n3))
 		}
 
 		senao {
@@ -33,7 +33,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 410; 
+ * @POSICAO-CURSOR = 387; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
